@@ -10,7 +10,7 @@ job = cron.new(command='export DISPLAY=:0 && export XDG_RUNTIME_DIR=/run/user/10
 
 #job.setall('30 3 * * *')
 
-job.minute.on(35)
+job.minute.on(45)
 job.hour.on(18)
 job.day.on(19)
 job.month.on(2)
